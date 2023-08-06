@@ -1,9 +1,6 @@
-var a = 15;
-if(a >=10){
-    console.log("Hello Adfar");
+for(let i = 0; i<=10;i++){
+    if(i==3){
+        break;
+    }
+    console.log(i)
 }
-else {
-    console.log("hello");
-};
-let ternary = a < 10 ? "adfar" : "ref";
-console.log(ternary);
